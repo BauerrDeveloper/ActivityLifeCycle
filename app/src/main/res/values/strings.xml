@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ActivityLifeCycle</string>
+    <string name="clique_aqui">Clique Aqui!</string>
+    <string name="hello_word_this_is_my_first_app_on_andoidstudio">Hello Word!! This is my first app on AndoidStudio!!!</string>
+    <string name="sua_avalia_o_muito_importante_pra_n_s">Sua avaliação é muito importante pra nós!</string>
+    <string name="volta_para_main_activity">Volta para Main Activity</string>
+    <string name="segunda_atividade">Segunda Atividade</string>
+    <string name="a_op_o_selecionada_foi">A opção selecionada foi:</string>
+
+    <string name="op_o_01">Opção 01</string>
+    <string name="op_o_02">Opção 02</string>
+    <string name="op_o_03">Opção 03</string>
+    <string name="op_o">OPÇÃO</string>
+    <string name="op_es">Opções</string>
+
+
+</resources>
