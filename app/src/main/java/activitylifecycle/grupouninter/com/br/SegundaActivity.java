@@ -14,6 +14,7 @@ public class SegundaActivity extends Activity {
     RadioButton rbOpcao2;
     RadioButton rbOpcao3;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState){
             super.onCreate(savedInstanceState);
@@ -22,6 +23,7 @@ public class SegundaActivity extends Activity {
             rbOpcao1 = (RadioButton) findViewById(R.id.rbOpcao1);
             rbOpcao2 = (RadioButton) findViewById(R.id.rbOpcao2);
             rbOpcao3 = (RadioButton) findViewById(R.id.rbOpcao3);
+
 
             rbOpcao1.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -59,6 +61,7 @@ public class SegundaActivity extends Activity {
                 public void onClick(View v) {
                     Intent intent = new Intent(v.getContext(), MainActivity.class);
                     startActivity(intent);
+                    System.out.println("Somente um teste");
                 }
             });
     }
